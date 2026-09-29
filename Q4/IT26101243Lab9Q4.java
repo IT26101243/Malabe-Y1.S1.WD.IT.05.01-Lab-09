@@ -22,8 +22,7 @@ public class IT26101243Lab9Q4 {
 
     // Method to print details of a student
     public static void printDetails(String name, double finalMark, char grade) {
-        System.out.printf("%-10s | %-10.2f | %-5c\n", name, finalMark, grade);
-    }
+        System.out.println(name + " | " + finalMark + " | " + grade);    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -32,7 +31,6 @@ public class IT26101243Lab9Q4 {
         double[] finalMarks = new double[5];
         char[] grades = new char[5];
 
-        // Input data for 5 students
         for (int i = 0; i < 5; i++) {
             System.out.print("Enter Name of Student " + (i + 1) + ": ");
             names[i] = scanner.next();
@@ -47,7 +45,6 @@ public class IT26101243Lab9Q4 {
             grades[i] = findGrades(finalMarks[i]);
         }
 
-        // Display results table
         System.out.println("\nName       | Final Mark | Grade");
         for (int i = 0; i < 5; i++) {
             printDetails(names[i], finalMarks[i], grades[i]);
