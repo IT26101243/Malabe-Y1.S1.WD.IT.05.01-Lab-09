@@ -13,7 +13,6 @@ public class IT26101243Lab9Q1 {
         System.out.print("Enter value c: ");
         double c = scanner.nextDouble();
 
-        // Calculate discriminant: b^2 - 4ac
         double discriminant = Math.pow(b, 2) - (4 * a * c);
 
         if (discriminant >= 0) {
@@ -27,6 +26,5 @@ public class IT26101243Lab9Q1 {
             System.out.println("Roots are complex/imaginary.");
         }
 
-        scanner.close();
     }
 }
