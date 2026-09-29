@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class IT26101243Lab9Q2 {
     
-    // Method to calculate area of circle
     public static double circleArea(double radius) {
         return Math.PI * radius * radius;
     }
@@ -17,6 +16,5 @@ public class IT26101243Lab9Q2 {
 
         System.out.println("The area of the circle with radius " + radius + " is: " + area);
 
-        scanner.close();
     }
 }
