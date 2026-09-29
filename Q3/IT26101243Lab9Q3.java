@@ -1,16 +1,13 @@
 public class IT26101243Lab9Q3 {
 
-    // Method to add two integers
     public static int add(int num1, int num2) {
         return num1 + num2;
     }
 
-    // Method to multiply two integers
     public static int multiply(int num1, int num2) {
         return num1 * num2;
     }
 
-    // Method to square an integer
     public static int square(int num) {
         return num * num;
     }
